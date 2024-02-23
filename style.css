@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&family=Poppins&family=Protest+Riot&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: linear-gradient(
+    45deg,
+    hsl(215deg 100% 34%) 0%,
+    hsl(213deg 100% 34%) 10%,
+    hsl(211deg 100% 34%) 22%,
+    hsl(209deg 100% 34%) 34%,
+    hsl(207deg 100% 34%) 46%,
+    hsl(205deg 100% 34%) 58%,
+    hsl(202deg 100% 34%) 69%,
+    hsl(200deg 100% 34%) 80%,
+    hsl(198deg 100% 33%) 91%,
+    hsl(196deg 100% 33%) 100%
+  );
+
+}
+
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    cursor: pointer;
+    border-radius: 35%;
+    width: 5%;
+    height: 5%;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+header button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 3px solid #ffffff;
+}
+
+header button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+/*Content*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #24252a;  
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    border-radius: 50px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 40px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 40px;
+    text-align: center;
+    background-color: #4682B4;
+}
+
+.container h1{
+    left: 0;
+}
+
+.tagline-big-text{
+  font-family: 'Lexend', sans-serif;
+}
+
+
+.line-5 {
+    height: 10px;
+    background: linear-gradient(
+      to bottom,
+      transparent 2px,
+      white 2px,
+      white 3px,
+      transparent 3px
+    );
+}
+
+/*Button*/
+
+
+/* CSS */
+.button-85 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+/* Footer*/
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: #000080;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  
+/*Why choose us */
